@@ -11,7 +11,7 @@ Excel 기반 저장 및 ShotGrid 퍼블리싱까지 손쉽게 처리할 수 있�
 
 - Browse: EXR 시퀀스 탐색 및 정렬
 - 메타데이터 추출: OIIO subprocess 실행
-- UI 테이블 표시: PySide 기반 시각화 + 체크박스 선택
+- UI 테이블 표시: SGTK 기반 시각화 + 체크박스 선택
 - Edit: 테이블 편집 모드 전환
 - Save: Excel(.xlsx)로 버전 저장
 - Validate: 퍼블리싱 유효성 검사 (timecode, 경로, 버전 등)
