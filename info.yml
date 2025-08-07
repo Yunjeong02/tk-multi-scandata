@@ -1,0 +1,47 @@
+# Copyright (c) 2015 Shotgun Software Inc.
+#
+# CONFIDENTIAL AND PROPRIETARY
+#
+# This work is provided "AS IS" and subject to the Shotgun Pipeline Toolkit
+# Source Code License included in this distribution package. See LICENSE.
+# By accessing, using, copying or modifying this work you indicate your
+# agreement to the Shotgun Pipeline Toolkit Source Code License. All rights
+# not expressly granted therein are reserved by Shotgun Software Inc.
+
+# Metadata defining the behaviour and requirements for this configuration
+
+# App-specific metadata
+
+
+# name: tk-multi-scandata
+# version: 1.0.0
+# description: Scan Data Conversion Tool
+# engine: tk-desktop
+# icon: "icon_256.png"
+# launch_file: /home/rapa/show/projects/ww_yj/config/apps/tk-multi-scandata/app.py
+# launch_command: /home/rapa/show/projects/ww_yj/config/apps/tk-multi-scandata/app.py
+# # Python 파일 경로는 일반적으로 app.py 내부에서 처리
+# # launch_file, launch_command는 Toolkit이 인식하지 않음 (커스텀 필드임)
+# class: App
+# supported_engines: [tk-desktop]
+# requires_shotgun_version: "v7.2.0"
+# requires_core_version: "v0.19.18"
+# python_module: python
+# entry_point: app.app
+
+name: tk-multi-scandata
+version: 1.0.0
+description: Scan Data Conversion Tool
+engine: tk-desktop
+icon: "icon_256.png"
+class: App
+supported_engines: [tk-desktop]
+requires_shotgun_version: "v7.2.0"
+requires_core_version: "v0.19.18"
+python_module: python
+entry_point: app
+
+desktop_entry:
+  title: "Scan Data Tool"
+  entity_types: ["Project"]
+  supports_multiple_selection: false
